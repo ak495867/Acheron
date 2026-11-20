@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 
-$Branch = if ($env:ACHERON_BRANCH) { $env:ACHERON_BRANCH } else { "main" }
+$Branch = if ($env:ACHERON_BRANCH) { $env:ACHERON_BRANCH } else { "master" }
 if ($Branch -notmatch '^[A-Za-z0-9._/-]+$') {
     throw "Invalid ACHERON_BRANCH value."
 }
