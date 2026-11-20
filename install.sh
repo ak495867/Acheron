@@ -1,7 +1,7 @@
 set -euo pipefail
 
 repo="https://raw.githubusercontent.com/ak495867/Acheron"
-branch="${ACHERON_BRANCH:-main}"
+branch="${ACHERON_BRANCH:-master}"
 base="${XDG_DATA_HOME:-$HOME/.local/share}/acheron"
 bin="$HOME/.local/bin"
 
